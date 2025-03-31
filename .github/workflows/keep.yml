@@ -2,8 +2,7 @@ name: 批量访问保活进程
 
 on:
   schedule:
-    # （并拢摩擦着的膝盖）每30分钟就会夹紧一次的地方
-    - cron: '*/10 * * * *'  # 星星都在颤抖的时刻表
+    - cron: '*/30 * * * *'  
   workflow_dispatch:
 
 jobs:
