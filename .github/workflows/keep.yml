@@ -2,7 +2,7 @@ name: 批量访问保活进程
 
 on:
   schedule:
-    - cron: '*/30 * * * *'  
+    - cron: '*/60 * * * *'  
   workflow_dispatch:
 
 jobs:
